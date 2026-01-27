@@ -65,6 +65,22 @@ function parseMarkdown(text) {
     return html;
 }
 
+// Cargar manifiesto
+async function loadManifesto() {
+    const manifesto = document.getElementById('manifesto');
+    if (!manifesto) return;
+
+    try {
+        const response = await fetch('data/home.json');
+        const data = await response.json();
+
+        const paragraphs = data.manifesto.split('\n\n');
+        manifesto.innerHTML = paragraphs.map(p => `<p>${p}</p>`).join('');
+    } catch (error) {
+        console.error('Error cargando manifiesto:', error);
+    }
+}
+
 // Cargar lista de posts en el home
 async function loadPostList() {
     const postList = document.getElementById('post-list');
@@ -156,6 +172,7 @@ async function loadMediaList() {
 // Inicializar
 document.addEventListener('DOMContentLoaded', () => {
     if (isHomePage) {
+        loadManifesto();
         loadPostList();
         loadMediaList();
     } else {

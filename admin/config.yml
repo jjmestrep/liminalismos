@@ -19,6 +19,12 @@ collections:
   - name: "data"
     label: "Datos"
     files:
+      - name: "home"
+        label: "Página principal"
+        file: "data/home.json"
+        fields:
+          - { label: "Manifiesto", name: "manifesto", widget: "text" }
+
       - name: "media"
         label: "Apariciones en medios"
         file: "data/media.json"
