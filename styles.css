@@ -153,6 +153,43 @@ h2 {
     border-top: 1px solid var(--color-border);
 }
 
+/* Medios */
+.media {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.media ul {
+    list-style: none;
+}
+
+.media li {
+    margin-bottom: 1rem;
+}
+
+.media a {
+    text-decoration: none;
+    color: var(--color-text);
+    display: block;
+    transition: color 0.2s ease;
+}
+
+.media a:hover {
+    color: var(--color-text-light);
+}
+
+.media-title {
+    display: block;
+    font-size: 1rem;
+}
+
+.media-source {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+}
+
 .newsletter p {
     margin-bottom: 1.5rem;
     color: var(--color-text-light);
