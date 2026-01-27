@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "title": "Entrevista en Podcast Ejemplo",
+      "source": "Podcast Ejemplo",
+      "url": "https://ejemplo.com/podcast"
+    },
+    {
+      "title": "Artículo sobre creatividad y límites",
+      "source": "Revista Digital",
+      "url": "https://ejemplo.com/articulo"
+    },
+    {
+      "title": "Conversación sobre escritura digital",
+      "source": "Blog Tecnología",
+      "url": "https://ejemplo.com/entrevista"
+    }
+  ]
+}

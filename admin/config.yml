@@ -15,3 +15,18 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Subtítulo", name: "subtitle", widget: "string", required: false }
       - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "data"
+    label: "Datos"
+    files:
+      - name: "media"
+        label: "Apariciones en medios"
+        file: "data/media.json"
+        fields:
+          - name: "items"
+            label: "Apariciones"
+            widget: "list"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Medio", name: "source", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }

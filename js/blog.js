@@ -128,10 +128,36 @@ async function loadPost() {
     }
 }
 
+// Cargar apariciones en medios
+async function loadMediaList() {
+    const mediaList = document.getElementById('media-list');
+    if (!mediaList) return;
+
+    try {
+        const response = await fetch('data/media.json');
+        const data = await response.json();
+        const items = data.items || data;
+
+        items.forEach(item => {
+            const li = document.createElement('li');
+            li.innerHTML = `
+                <a href="${item.url}" target="_blank">
+                    <span class="media-title">${item.title}</span>
+                    <span class="media-source">${item.source}</span>
+                </a>
+            `;
+            mediaList.appendChild(li);
+        });
+    } catch (error) {
+        console.error('Error cargando medios:', error);
+    }
+}
+
 // Inicializar
 document.addEventListener('DOMContentLoaded', () => {
     if (isHomePage) {
         loadPostList();
+        loadMediaList();
     } else {
         loadPost();
     }
