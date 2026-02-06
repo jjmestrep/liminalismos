@@ -1,0 +1,26 @@
+{
+  "name": "liminalismos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "remotion:preview": "npx remotion studio",
+    "remotion:render": "npx remotion render Liminalismos out/liminalismos.mp4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:60220/git/jjmestrep/liminalismos"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@remotion/bundler": "^4.0.419",
+    "@remotion/cli": "^4.0.419",
+    "@types/react": "^19.2.13",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.419"
+  }
+}
