@@ -2,6 +2,8 @@
 title: Las manos y el fuego
 subtitle: Un anhelo de ascensión
 ---
+![](/images/christian-paul-stobbe-pkzo8mernak-unsplash.jpg "Foto de Christian Paul Stobbe en Unsplash    ")
+
 Venecia, 1490. Un taller cerca de Rialto huele a tinta y a madera. Aldo Manuzio, un humanista que no es ni clérigo ni noble, está inventando algo que todavía no tiene nombre, la editorial moderna. No se limita a imprimir. Selecciona qué merece ser impreso. Diseña el primer libro de bolsillo. Crea un catálogo coherente de clásicos griegos y latinos. Construye una marca, la Aldina, que significa algo antes de que abras el libro. En su taller, un hombre sostiene por primera vez uno de esos volúmenes. No entiende todo lo que lee. Pero vislumbra algo más importante, pronto no necesitará que nadie le diga qué dice. Ese gesto, sostener un objeto que antes solo tocaban los iniciados, es el acto fundacional del mundo moderno. No por lo que contiene el libro. Por lo que destruye el hecho de tenerlo.
 
 Hay algo en esta acción que no pertenece solo al siglo XV. Es un gesto que se repite cada vez que una tecnología acerca el umbral de lo posible a un nuevo público. Y está volviendo a ocurrir.
