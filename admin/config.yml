@@ -14,6 +14,7 @@ collections:
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Subtítulo", name: "subtitle", widget: "string", required: false }
+      - { label: "Imagen", name: "image", widget: "image", required: false }
       - { label: "Contenido", name: "body", widget: "markdown" }
 
   - name: "data"

@@ -1,6 +1,6 @@
 // Detectar en qué página estamos
-const isHomePage = window.location.pathname.endsWith('index.html') ||
-                   window.location.pathname.endsWith('/') ||
+const isHomePage = window.location.pathname === '/' ||
+                   window.location.pathname === '/index.html' ||
                    window.location.pathname === '';
 
 // Parsear frontmatter YAML simple
@@ -71,7 +71,7 @@ async function loadManifesto() {
     if (!manifesto) return;
 
     try {
-        const response = await fetch('data/home.json');
+        const response = await fetch('/data/home.json');
         const data = await response.json();
 
         const paragraphs = data.manifesto.split('\n\n');
@@ -88,18 +88,18 @@ async function loadPostList() {
 
     try {
         // Cargar lista de slugs
-        const response = await fetch('posts/posts.json');
+        const response = await fetch('/posts/posts.json');
         const slugs = await response.json();
 
         // Cargar metadatos de cada post
         for (const slug of slugs) {
-            const postResponse = await fetch(`posts/${slug}.md`);
+            const postResponse = await fetch(`/posts/${slug}.md`);
             const content = await postResponse.text();
             const { meta } = parseFrontmatter(content);
 
             const li = document.createElement('li');
             li.innerHTML = `
-                <a href="post.html?slug=${slug}">
+                <a href="/posts/${slug}/">
                     <span class="post-link-title">${meta.title || slug}</span>
                 </a>
             `;
@@ -112,16 +112,17 @@ async function loadPostList() {
 
 // Cargar contenido de un post
 async function loadPost() {
-    const params = new URLSearchParams(window.location.search);
-    const slug = params.get('slug');
+    // Slug desde path (/posts/{slug}/) o query params (?slug=X) como fallback
+    const pathMatch = window.location.pathname.match(/\/posts\/([^/]+)/);
+    const slug = pathMatch ? pathMatch[1] : new URLSearchParams(window.location.search).get('slug');
 
     if (!slug) {
-        window.location.href = 'index.html';
+        window.location.href = '/';
         return;
     }
 
     try {
-        const response = await fetch(`posts/${slug}.md`);
+        const response = await fetch(`/posts/${slug}.md`);
         if (!response.ok) throw new Error('Post no encontrado');
 
         const content = await response.text();
@@ -163,7 +164,7 @@ async function loadMediaList() {
     if (!mediaList) return;
 
     try {
-        const response = await fetch('data/media.json');
+        const response = await fetch('/data/media.json');
         const data = await response.json();
         const items = data.items || data;
 
