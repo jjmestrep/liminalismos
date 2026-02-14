@@ -127,8 +127,21 @@ async function loadPost() {
         const content = await response.text();
         const { meta, body } = parseFrontmatter(content);
 
-        // Actualizar título de la página
-        document.title = `${meta.title || slug} — Liminalismos`;
+        // Actualizar título y meta tags de la página
+        const title = meta.title || slug;
+        const description = meta.subtitle || 'Pensando desde los márgenes';
+        document.title = `${title} — Liminalismos`;
+
+        const metaUpdates = {
+            'og:title': title,
+            'og:description': description,
+            'twitter:title': title,
+            'twitter:description': description,
+        };
+        for (const [key, value] of Object.entries(metaUpdates)) {
+            const el = document.querySelector(`meta[property="${key}"], meta[name="${key}"]`);
+            if (el) el.setAttribute('content', value);
+        }
 
         // Actualizar metadatos
         document.getElementById('post-title').textContent = meta.title || slug;
