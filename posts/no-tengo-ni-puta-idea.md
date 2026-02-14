@@ -1,8 +1,6 @@
 ---
 title: No tengo ni puta idea
 ---
-
-
 Me vais a tener que perdonar los tacos, casi como siempre, pero puede que hoy un poquito más de lo normal. Porque este post tiene un poco de rabia, pero prometo que también tiene algo de reflexión.
 
 La verdad es que tampoco tengo mucho más que decir que lo que anticipa el título, lo que sí voy a hacer es contaros por qué.
@@ -61,4 +59,6 @@ PD II:: Si, por alguna casualidad, crees que tienes la receta del éxito para la
 
 Si consideras interesante reflexionar juntos sobre estas líneas, puedes hacerlo a través de mi cuenta de Twitter o LinkedIn.
 
-También puedes seguirnos a Innovación Audiovisual en Twitter, LinkedIn, Facebook o Instagram.
+También puedes seguirnos a Innovación Audiovisual en Twitter, LinkedIn, Facebook o Instagram.\
+\
+*Artículo originalmente publicado en innovaciónaudiovisual.com*
