@@ -5,7 +5,7 @@ const path = require('path');
 const postsDir = path.join(__dirname, 'posts');
 const outputFile = path.join(postsDir, 'posts.json');
 const templateFile = path.join(__dirname, 'post.html');
-const baseUrl = 'https://liminalismos.netlify.app';
+const baseUrl = 'https://liminalismos.com';
 
 // Parsear frontmatter YAML simple
 function parseFrontmatter(content) {
