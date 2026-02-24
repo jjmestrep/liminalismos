@@ -1,5 +1,6 @@
 ---
 title: Estamos hechos de memorIA
+image: /images/estamos-hechos-de-memoria-juanjo-mestre.png
 ---
 Antes de que existiera la primera palabra escrita, antes de que nadie tallara un signo en arcilla ni enrollara un papiro, los griegos ya sabían algo que nosotros hemos olvidado: que todo lo que merece existir nace de la memoria.
 
