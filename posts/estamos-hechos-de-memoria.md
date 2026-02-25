@@ -2,6 +2,9 @@
 title: Estamos hechos de memorIA
 image: /images/estamos-hechos-de-memoria-juanjo-mestre.png
 ---
+![](/images/estamos-hechos-de-memoria-juanjo-mestre.png)
+
+\
 Antes de que existiera la primera palabra escrita, antes de que nadie tallara un signo en arcilla ni enrollara un papiro, los griegos ya sabían algo que nosotros hemos olvidado: que todo lo que merece existir nace de la memoria.
 
 No hablo de la memoria como la entendemos hoy, ese cajón blando donde guardamos contraseñas y aniversarios. Hablo de Mnemosyne. Una titánide. Anterior a Zeus, anterior al Olimpo, anterior al orden mismo del mundo. Los griegos no le dieron un templo menor ni un papel decorativo. Le dieron la maternidad de todo lo que importa: las nueve Musas nacieron de ella. La épica, la historia, la lírica, la poesía, la música, la tragedia, la comedia, la danza, la astronomía. Toda forma de creación artística era hija de la memoria.
