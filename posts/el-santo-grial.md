@@ -2,6 +2,8 @@
 title: El santo grIAl
 image: /images/el-santo-grial-juanjo_mestre.png
 ---
+![](/images/el-santo-grial-juanjo_mestre.png)
+
 ¿Has visto *2001. Una odisea en el espacio*? En una de las secuencias más célebres de la historia del cine no hay diálogos. Ni explicaciones. Solo monos, un monolito y una decisión.
 
 El monolito aparece en medio de la nada. Negro, vertical, impenetrable. Los monos retroceden, gritan, dan golpes en el suelo. Pero uno de ellos se acerca. Extiende la mano. Toca la superficie lisa con la yema de los dedos. No sabe qué es. Se percibe, eso sí, algo parecido a la admiración.
@@ -50,4 +52,4 @@ Porque el pánico que sentimos no es miedo a la inteligencia artificial. Es mied
 
 No viajamos para llegar. Viajamos para dejar de ser el que éramos.
 
-J.
+J:.
